@@ -306,7 +306,7 @@ body {
     justify-content: space-around;
 }
 .categories .cards > .card .text > i{
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     top: -25px;
     left: 25px;
@@ -543,4 +543,72 @@ body {
     align-items: start;
     }
 
+}
+
+@media (max-width: 590px) {
+    .uppar-section .left-side .text p {
+        font-size: 14px;
+    }
+    .uppar-section .left-side .popular-search {
+        width: 100%;
+        line-height: 28px;
+    }
+    .uppar-section .left-side .text > h1 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .hero-section .bottom-section .box {
+    background: #ffffff33;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    line-height: 22px;
+    }
+    .hero-section .bottom-section .box > .img{
+        width: 100%;
+    }
+    .hero-section .bottom-section .box > .img > img {
+        width: 100%;
+        height: auto;
+    }
+    .hero-section .bottom-section .box > .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 12px;
+        text-align: end;
+    }
+    .categories-heading .text{
+        width: 79%;
+    }
+    .bottom-section .box > .text p {
+        text-align: center;
+    }
+    .service-card .left-side {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        color: white;
+    }
+    .services-cards .service-card > .right-side {
+        width: 100%;
+        flex-direction: column;
+    }
+    .services-cards > .service-card > .right-side img {
+        width: 100%;
+        height: auto;
+    }
+    .services-cards > .service-card > .right-side .card-content {
+        line-height: 30px;
+    }
+    .service-card .left-side {
+        margin-top: 26px;
+    }
 }
